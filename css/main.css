@@ -2,11 +2,13 @@
 {
 	margin: 0px;
 	background-color: #FFFAF0;
+	min-width: 1200px;
 }
 a:link
 {
 	text-decoration:none;
 	color: none;
+	display: inline-block;
 }
 .div
 {
@@ -17,23 +19,32 @@ hr
 	height: 1px;
 	border: 0;
 	background-color: #FFFAF0;
-	opacity: 0.2;
+	opacity: 0.09;
+}
+.principaldiv
+{
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	min-width: 1412px
 }
 .menu
 {
 	width: 200px;
-	height: 110vh;
+	height: 100vh;
 	background-color: #252525;
 }
 .fontmain
 {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
-	color: cornflowerblue;
+	font-size: 40px;
+	color: deepskyblue;
 }
 .font
 {
+	font-size: 30px;
 	font-family: 'Ubuntu', sans-serif;
+	display: inline-block;
 }
 
 .bouton
@@ -41,7 +52,53 @@ hr
 	height: 40px;
 	width: 100%;
 	color: papayawhip;
+	display: inline-block;
 }
 .bouton:hover{
 	color: FireBrick;
+}
+
+.header
+{
+	margin-left: 198px;
+	margin-top: -928px;
+	background-color: #252525;
+	min-width: 1200px;
+	color: deepskyblue;
+	width: 50px;
+	height: 55px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 42px;
+	border-radius: 10px;
+}
+.middle
+{
+	margin-left: 198px;
+	margin-top: -868px;
+	min-width: 1200px;
+	color: deepskyblue;
+	width: 50px;
+	height: 55px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 42px;
+	border-radius: 10px;
+}
+.devoir
+{
+	background-color: snow;
+	display: inline-block;
+}
+.sizeicon
+{
+	font-size: 1px;
+}
+
+.choix
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 5px;
+	height: 70px;
+	color: #492D3D;
+	background-color: cadetblue;
 }
