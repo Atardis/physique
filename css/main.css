@@ -13,6 +13,7 @@ a:link
 .div
 {
 	display: inline-block;
+	margin: 0px;
 }
 hr
 {
@@ -32,21 +33,23 @@ hr
 {
 	width: 200px;
 	height: 100vh;
+	margin: 0 auto;
 	background-color: #252525;
+	min-width: 200px;
+	min-height: 774px;
 }
 .fontmain
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 40px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 28px;
 	color: deepskyblue;
 }
 .font
 {
-	font-size: 30px;
+	font-size: 28px;
 	font-family: 'Ubuntu', sans-serif;
 	display: inline-block;
 }
-
 .bouton
 {
 	height: 40px;
@@ -54,51 +57,44 @@ hr
 	color: papayawhip;
 	display: inline-block;
 }
-.bouton:hover{
-	color: FireBrick;
-}
-
-.header
+.color
 {
-	margin-left: 198px;
-	margin-top: -928px;
-	background-color: #252525;
-	min-width: 1200px;
+	color: papayawhip;
+}
+.colorin
+{
 	color: deepskyblue;
-	width: 50px;
-	height: 55px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 42px;
-	border-radius: 10px;
+}
+.bouton:hover{
+	color: #00bbb3;
 }
 .middle
 {
-	margin-left: 198px;
-	margin-top: -868px;
-	min-width: 1200px;
-	color: deepskyblue;
-	width: 50px;
-	height: 55px;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 42px;
-	border-radius: 10px;
-}
-.devoir
-{
-	background-color: snow;
-	display: inline-block;
+	width: 87vw;
+	height: 99vh;
+	min-width: 1275px;
+	margin-top: 2px;
+	margin-left: 2px;
+	position: absolute;
+	overflow:scroll;
+	overflow: hidden;
 }
 .sizeicon
 {
 	font-size: 1px;
 }
-
-.choix
+.header
 {
-	margin-left: 10px;
-	margin-right: 10px;
-	border-radius: 5px;
-	height: 70px;
-	color: #492D3D;
-	background-color: cadetblue;
+	color: deepskyblue;
+	background-color: #252525;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	height: 50px;
+	width: 110%;
+	text-align: center;
+}
+.positionheadertitle
+{
+	margin-top: 9px;
+	margin-left: -200px;
 }
