@@ -41,7 +41,7 @@ hr
 .fontmain
 {
 	font-family: 'Ubuntu', sans-serif;
-	font-size: 28px;
+	font-size: 30px;
 	color: deepskyblue;
 }
 .font
@@ -63,16 +63,15 @@ hr
 }
 .colorin
 {
-	color: deepskyblue;
+	color: #73ED55;
 }
 .bouton:hover{
-	color: #00bbb3;
+	color: #73ED55;
 }
 .middle
 {
 	width: 87vw;
 	height: 99vh;
-	min-width: 1275px;
 	margin-top: 2px;
 	margin-left: 2px;
 	position: absolute;
@@ -86,15 +85,33 @@ hr
 .header
 {
 	color: deepskyblue;
-	background-color: #252525;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
 	height: 50px;
-	width: 110%;
+	width: 100%;
 	text-align: center;
 }
 .positionheadertitle
 {
 	margin-top: 9px;
 	margin-left: -200px;
+	width: auto;
+	padding-left: 42px;
+	padding-right: 42px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	background-color: #252525;
+}
+.devoir
+{
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 50px;
+	margin: 20px;
+	height: auto;
+	width: auto;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #EDEA55;
+	font-size: 18px;
 }
