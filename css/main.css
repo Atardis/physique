@@ -77,6 +77,8 @@ hr
 	position: absolute;
 	overflow:scroll;
 	overflow: hidden;
+	text-align: center;
+
 }
 .sizeicon
 {
@@ -88,8 +90,9 @@ hr
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 30px;
 	height: 50px;
-	width: 100%;
+	width: 115%;
 	text-align: center;
+	min-width: 1000px;
 }
 .positionheadertitle
 {
@@ -114,4 +117,11 @@ hr
 	border-radius: 10px;
 	background-color: #EDEA55;
 	font-size: 18px;
+}
+
+#presentation
+{
+	font-family: 'Ubuntu', sans-serif;
+	width: 80%;
+	min-width: 20%;
 }
